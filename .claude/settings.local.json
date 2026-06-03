@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(python -c \"from app.models import *; print\\('Models imported OK'\\)\")",
+      "Bash(python -c \"from app.main import app; print\\('FastAPI app created OK'\\)\")",
+      "Bash(npx tsc *)",
+      "Bash(node --max-old-space-size=4096 node_modules/typescript/bin/tsc --noEmit)",
+      "Bash(Select-Object -First 30)"
+    ]
+  }
+}
